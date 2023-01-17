@@ -1,0 +1,33 @@
+.blog-card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 'detail' 'image';
+  width: 80vw;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 2px solid var(--color3);
+}
+
+.details {
+  grid-area: 'detail';
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.image {
+  grid-area: 'image';
+}
+.image img {
+  width: 100%;
+  border-radius: 5px;
+}

@@ -1,0 +1,14 @@
+body {
+  --color1: #dcdcdd;
+  --color2: #c5c3c6;
+  --color3: #46494c;
+  --color4: #4c5c68;
+  --color5: #1985a1;
+  --header-height: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  color: var(--color3);
+  background-color: var(--color1);
+}
