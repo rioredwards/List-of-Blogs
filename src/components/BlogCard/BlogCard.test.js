@@ -6,6 +6,7 @@ test('should render the blog card with title, subtitle, author and text', () => 
     <BlogCard
       title="Test title"
       subtitle="Test subtitle"
+      authors="any"
       text="lorem ipsum blah blah blah"
       image="https://www.fillmurray.com/300/200"
     />
